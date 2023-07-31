@@ -19,7 +19,7 @@ azizService as;
 
 public aziz ajouterpersonne(@RequestBody aziz a)
 {
-    return  as.ajouterperso(a);
+    as.ajouterperso(a);
 }
 
 }
