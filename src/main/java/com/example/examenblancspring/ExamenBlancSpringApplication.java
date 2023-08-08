@@ -12,7 +12,7 @@ public class ExamenBlancSpringApplication {
     public static void main(String[] args) {
         SpringApplication.run(ExamenBlancSpringApplication.class, args);
     }
-         @GetMapping("/home")
+         @GetMapping("")
         public String home (){
             return "welcome home";
         }
